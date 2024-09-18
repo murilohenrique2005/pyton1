@@ -191,6 +191,33 @@ class Operacao:
         return f'a soma dos pares é {somapar} e a dos ímpares é {somaimpar}.'
 
 
+    def exercicio20(num):
+    soma_divisores = 0
+    
+    for i in range(1, num):
+        if num % i == 0:
+            soma_divisores += i
+    
+    if soma_divisores == num:
+        print(f"{num} é um número perfeito!")
+    else:
+        print(f"{num} não é um número perfeito.")
+
+
+    def exercicio21
+    A = 10
+    B = 20
+
+    temp = A
+    A = B
+    B = temp
+
+    print(f"O valor de A agora é: {A}")
+    print(f"O valor de B agora é: {B}")
+
+
+
+
 
 
 
